@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-R">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharan Vedetar Homestay - Your Scenic Getaway</title>
+    <meta name="description" content="Book your fully furnished house in the scenic heights of Dharan and Vedetar. Perfect for groups, families, and parties.">
+    
+    <link rel="preconnect" href="https.googleapis.com">
+    <link rel="preconnect" href="https.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">Dharan Heights Homestay</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact" class="nav-cta">Inquire Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Your Scenic Getaway in Dharan-Vedetar</h1>
+                <p>Fully furnished beautiful houses for groups, families, and parties. Experience the best views.</p>
+                <a href="#contact" class="cta-button">Get Your Quote</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>What We Offer</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>For Families & Groups</h3>
+                    <p>Spacious, fully furnished homes perfect for a comfortable group stay or family vacation.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Birthday & Events</h3>
+                    <p>Book our scenic spaces for birthday parties, celebrations, and gatherings.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Commercial Space</h3>
+                    <p>We also offer spaces suitable for small team retreats or commercial meetings.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <div class="container">
+                <h2>See For Yourself</h2>
+                <div class="gallery-grid">
+                    <img src="https://via.placeholder.com/400x300.png?text=Beautiful+View" alt="View from the homestay">
+                    <img src="https://via.placeholder.com/400x300.png?text=Living+Room" alt="Fully furnished living room">
+                    <img src="https://via.placeholder.com/400x300.png?text=Bedroom" alt="Comfortable bedroom">
+                    <img src="https://via.placeholder.com/400x300.png?text=Outdoor+Space" alt="Party and event space">
+                    <img src="https://via.placeholder.com/400x300.png?text=Family+Gathering" alt="Family at the homestay">
+                    <img src="https://via.placeholder.com/400x300.png?text=Kitchen" alt="Modern kitchen">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Send Us an Inquiry</h2>
+            <p>Fill out the form below and we'll get back to you with availability and a quote.</p>
+            
+            <form id="inquiry-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="inquiryType">Type of Inquiry</label>
+                    <select id="inquiryType" name="inquiryType" required>
+                        <option value="" disabled selected>Select one...</option>
+                        <option value="Family Stay">Family Stay</option>
+                        <option value="Group Stay">Group Stay</option>
+                        <option value="Birthday Party">Birthday Party</option>
+                        <option value="Commercial Event">Commercial Event</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group full-width">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+                <div class="full-width">
+                    <button type="submit" class="cta-button" id="submit-button">Send Inquiry</button>
+                    <p id="form-status"></p>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dharan Heights Homestay. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
